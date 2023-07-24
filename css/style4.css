@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Days+One&family=Permanent+Marker&family=Rancho&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+.navbar-nav {
+    font-family: 'Days One', sans-serif;
+}
+.header {
+    padding-left: 3%;
+    background-color: rgb(111, 177, 223);
+    padding-top: 2%;
+    font-family: 'Days One', sans-serif;
+}
+.float {
+    display: flex;
+    padding-right: 3%;
+    justify-content: end;
+    text-align: center;
+    
+}
+.provice {
+    padding-top: 5%;
+    padding-right: 10%;
+    padding-left: 2%;
+    text-align: center;
+    font-family: 'Days One', sans-serif;
+    width: 700px;
+}
+.float-left {
+    display: flex;
+    justify-content: start;
+    padding-left: 3%;
+}
+.proviceLeft {
+    padding-top: 5%;
+    text-align: center;
+    width: 700px;
+    padding-left: 3%;
+    font-family: 'Days One', sans-serif;
+}
+.endvideo {
+    padding-bottom: 2%;
+}
+iframe { width: 420px ; height: 315px;
+}
+/* footer */
+.footer1 {
+    display: flex;
+    justify-content: space-evenly;
+       padding: 20px;
+       width: 100%;
+    }
+   .footer1 .div1 {
+       text-align: center;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+   }
+      
+   .footer1 .div1 .image {
+       width: 100%;
+       max-width: 300px;    
+   
+   }
+   .footer1 .div1 .image img {
+       width: 100%;
+       height: 100%;
+       object-fit: contain;
+   }
+   
+   .footer1 .div  {
+       display: flex;
+       flex-direction: column;
+   }
+   .footer1 .div div {
+       display: flex;
+       flex-direction: column;  
+   }
+   .footer1 .div .flink {
+       row-gap: 10px;
+   }
+   .footer1 .div .flink a {
+       text-decoration: none;
+   }
+   .footer1 .div3 div i,.footer1 .div3 div p {
+       display: inline;
+   }
+   .footer1.div3 {
+       flex-basis: 350px;
+   }
+   .footer1 .div3  div {
+       display: flex ;
+       align-items: center;
+       margin: 10px;
+   }
+   .footer1 .div3  p i {
+       margin-right: 5px;
+   }    
+   .category {
+    display: flex;
+    justify-content: center;
+   }
+   .float  video { 
+    width: 100%;
+    max-width: 500px;
+   }
+   .float-left  video { 
+    width: 100%;
+    max-width: 500px;
+   }
+   @media only screen and (max-width: 926px) {
+    .float {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .float  .provice {
+        width: 100%;
+    }
+    .float-left  .provice ,.proviceLeft {
+        width: 100%;
+    }
+    .float-left {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+   }
+   @media only screen and (max-width: 768px) {
+    .footer1 {
+        flex-direction: column;
+    }
+   }
